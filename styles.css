@@ -1,0 +1,123 @@
+.container {
+  max-width: 1400px;
+}
+body {
+  background-color: black;
+}
+.container-fluid {
+  max-width: 1400px;
+}
+.text {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+.text1 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 23px;
+  font-weight: bold;
+}
+.text2 {
+  text-align: center;
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  margin-top: 25px;
+  margin-left: 0px;
+  color: rgb(0, 0, 0);
+}
+.text3 {
+  text-align: justify;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 220px;
+  margin-left: 50px;
+  color: #000000;
+}
+.all {
+  margin-top: 70px;
+}
+.knopki {
+  transition: 0.2s;
+}
+.knopki:hover {
+  content: " ";
+  position: relative;
+  transform: scale(1.03);
+  font-weight: 700;
+}
+
+.btxt1 {
+  display: flex;
+  position: relative;
+  margin-top: 85px;
+  margin-left: 37px;
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 21px;
+  color: #1a2744;
+}
+.ptxt1 {
+  display: flex;
+  position: relative;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Maven Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.block1 {
+  margin-left: 50px;
+  margin-top: 138px;
+  display: flex;
+  position: relative;
+  width: 325px;
+  height: 269px;
+  box-shadow: 4px 4px 20px rgba(231, 224, 224, 0.25);
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.block1:hover {
+  background-color: #fe3c51;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0.3);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+}
+.block2 {
+  margin-left: 50px;
+  margin-top: 95px;
+  display: flex;
+  position: relative;
+  width: 555px;
+  height: 269px;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.block2:hover {
+  -webkit-transform: scale(0.3);
+  -ms-transform: scale(1.2);
+  transform: scale(1.1);
+}
+.otprav {
+  transition: 0.5s;
+}
+.otprav:hover {
+  -webkit-transform: scale(0.1);
+  transform: scale(1.015);
+}

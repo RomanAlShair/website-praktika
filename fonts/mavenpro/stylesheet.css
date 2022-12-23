@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Maven Pro";
+  src: url("MavenProRegular.eot");
+  src: local("Maven Pro Regular"), local("MavenProRegular"),
+    url("MavenProRegular.eot?#iefix") format("embedded-opentype"),
+    url("MavenProRegular.woff2") format("woff2"),
+    url("MavenProRegular.woff") format("woff"),
+    url("MavenProRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("MavenProBold.eot");
+  src: local("Maven Pro Bold"), local("MavenProBold"),
+    url("MavenProBold.eot?#iefix") format("embedded-opentype"),
+    url("MavenProBold.woff2") format("woff2"),
+    url("MavenProBold.woff") format("woff"),
+    url("MavenProBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("MavenProMedium.eot");
+  src: local("Maven Pro Medium"), local("MavenProMedium"),
+    url("MavenProMedium.eot?#iefix") format("embedded-opentype"),
+    url("MavenProMedium.woff2") format("woff2"),
+    url("MavenProMedium.woff") format("woff"),
+    url("MavenProMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
